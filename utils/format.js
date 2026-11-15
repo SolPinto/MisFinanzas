@@ -1,4 +1,4 @@
-// Formatea un número como guaraníes: 150000 → "₲ 150.000"
+// Formatea un número como guaraníes: 150000 - "₲ 150.000"
 export function formatGs(value) {
   const n = Math.round(Number(value) || 0);
   const abs = Math.abs(n)

@@ -1,5 +1,5 @@
 // components/AddAssets.js
-// Formulario de ingresos/gastos + Capítulo 6 Parte 1: estado de la cámara (expo-camera)
+// Formulario de ingresos/gastos + estado de la cámara (expo-camera)
 import { StatusBar } from 'expo-status-bar';
 import {
   StyleSheet,
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
   categoryBtnText: { color: '#222', fontWeight: '500', fontSize: 15 },
   categoryBtnTextActive: { color: '#fff' },
 
-  // Cámara y comprobantes (Cap. 6, Paso 9)
+  // Cámara y comprobantes
   cameraContainer: { flex: 1 },
   cameraView: { flex: 1 },
   cameraControls: {

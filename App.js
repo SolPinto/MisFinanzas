@@ -1,5 +1,5 @@
 // App.js
-// Mis Finanzas — punto de entrada
+// Mis Finanzas
 // Tabs (Inicio, Agregar, Movimientos, Estadísticas) + Stack para el detalle de un movimiento
 import React from 'react';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
@@ -54,7 +54,7 @@ function getTabIcon(routeName, focused) {
   return 'ellipse-outline';
 }
 
-// Stack para la pestaña Movimientos (lista → detalle)
+// Stack para la pestaña Movimientos (lista y detalle)
 function TransactionStack() {
   return (
     <Stack.Navigator>
